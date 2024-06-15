@@ -14,4 +14,7 @@ miPromesa
   })
   .catch((error) => {
     console.error(error);
+  })
+  .finally(() => {
+    console.log('y todo terminió');
   });
